@@ -1,0 +1,164 @@
+{
+	"mod_lfo_rate":{
+		"range":[0,16383],
+		"CC": [3,35]
+	},
+
+	"mod_source":{
+		"set":[0,16,32,48,64,80],
+		"labels": ["Triangle", "Square", "Saw", "Ramp", "SanpleAndHold", "FilterEnv"],
+		"CC":71
+	},
+
+	"mod_pitch_amount":{
+		"range":[0,16383],
+		"CC":[4,36]
+	},
+
+	"mod_pitch_osc2":{
+		"set":[0,64],
+		"labels": ["OFF", "ON"],
+		"CC":70
+	},
+
+	"mod_filter_amount":{
+		"range":[0,16383],
+		"CC":[2,34]
+	},
+
+	"mod_wave_amount":{
+		"range":[0,16383],
+		"CC":[20,52]
+	},
+
+
+	"osc1_octave":{
+		"set":[16,32,48,64],
+		"labels":["16f", "8f", "4f", "2f"],
+		"CC":74
+	},
+
+	"osc1_sync_osc2":{
+		"set":[0,64],
+		"labels": ["OFF", "ON"],
+		"CC":77
+	},
+
+	"osc1_wave":{
+		"range":[0,16383],
+		"CC":[9,41]
+	},
+
+
+
+
+	"osc2_octave":{
+		"set":[16,32,48,64],
+		"labels":["16f", "8f", "4f", "2f"],
+		"CC":75
+	},
+
+	"osc2_frequency":{
+		"range":[0,16383],
+		"CC":[12,44]
+	},
+
+	"osc2_wave":{
+		"range":[0,16383],
+		"CC":[14,46]
+	},
+
+
+
+
+	"mixer_osc1":{
+		"range":[0,16383],
+		"CC":[15,47]
+	},
+
+	"mixer_sub":{
+		"range":[0,16383],
+		"CC":[17,49]
+	},
+
+	"mixer_osc2":{
+		"range":[0,16383],
+		"CC":[16,48]
+	},
+
+	"mixer_noise":{
+		"range":[0,16383],
+		"CC":[8,40]
+	},
+
+
+
+	"filter_cutoff":{
+		"range":[0,16383],
+		"CC":[19,51]
+	},
+
+	"filter_reso":{
+		"range":[0,16383],
+		"CC":[21,53]
+	},
+
+	"filter_multidrive":{
+		"range":[0,16383],
+		"CC":[18,50]
+	},
+
+	"filter_eg_amount":{
+		"range":[0,16383],
+		"CC":[22,54]
+	},
+
+	"filter_kb_tracking_amount":{
+		"range":[0,16383],
+		"CC":[27,59]
+	},
+
+
+
+	"env_filter_attack":{
+		"range":[0,16383],
+		"CC":[23,55]
+	},
+
+	"env_filter_decay":{
+		"range":[0,16383],
+		"CC":[24,56]
+	},
+
+	"env_filter_sustain":{
+		"range":[0,16383],
+		"CC":[25,57]
+	},
+
+	"env_filter_release":{
+		"range":[0,16383],
+		"CC":[26,58]
+	},
+
+
+	"env_amplifier_attack":{
+		"range":[0,16383],
+		"CC":[28,60]
+	},
+
+	"env_amplifier_decay":{
+		"range":[0,16383],
+		"CC":[29,61]
+	},
+
+	"env_amplifier_sustain":{
+		"range":[0,16383],
+		"CC":[30,62]
+	},
+
+	"env_amplifier_release":{
+		"range":[0,16383],
+		"CC":[31,63]
+	}
+
+}
