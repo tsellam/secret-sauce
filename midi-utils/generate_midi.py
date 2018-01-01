@@ -49,6 +49,7 @@ def generate_patch(synth_config):
 
     return(patch)
 
+
 def add_patch_to_midi(patch, track):
     for param in patch:
         track.append(
@@ -63,6 +64,7 @@ def add_patch_to_midi(patch, track):
                             control=param['cc_lsb'],
                             value=param['val_lsb'],
                             time=0))
+
 
 def patches_to_csv(patches, csv_file):
     colnames = [p['name'] for p in patches[0]]
@@ -88,6 +90,7 @@ def patches_to_csv(patches, csv_file):
             values = [str(param_dic[k]) for k in colnames]
             line = ','.join(values)
             f.write(line + '\n')
+
 
 def generate_midi(midi_file, csv_file,
                     synth_cfg_path, note, n_notes, tempo, duration):

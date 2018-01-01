@@ -19,4 +19,4 @@ if __name__ == '__main__':
         default = "notes.mid",
         help='Track name')
     args = parser.parse_args()
-    generate_midi(args.midi_file)
+    read_midi(args.midi_file)

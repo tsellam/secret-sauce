@@ -1,0 +1,29 @@
+{
+
+	"osc2_wave":{
+		"set":[0,32,49,85,127],
+		"labels": ["Saw", "Pulse", "Triangle", "Sine", "Noise"],
+		"CC":14
+	},
+
+	"filter_cutoff":{
+		"range":[0,127],
+		"CC":15
+	},
+
+	"filter_resonance":{
+		"range":[0,127],
+		"CC":16
+	},
+
+	"lfo1_rate":{
+		"range":[0,127],
+		"CC":17
+	},
+
+	"lfo1_amount":{
+		"range":[0,127],
+		"CC":18
+	}
+
+}

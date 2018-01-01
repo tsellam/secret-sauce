@@ -31,6 +31,11 @@
 		"CC":19
 	},
 
+	"osc2_volume":{
+		"range":[0,127],
+		"CC":32
+	},
+
 	"osc1_wave":{
 		"set":[0,64,127],
 		"labels": ["Saw", "Pulse", "Noise"],
@@ -71,6 +76,13 @@
 	"amp_sustain":{
 		"range":[0,127],
 		"CC":28
+	},
+
+	"lfo1_destination":{
+		"set":[0, 20, 38, 56, 74, 92, 110],
+		"labels": ["NOTHING", "FILTER", "OSC1PITCH",
+				   "OSC2PITCH", "PW", "FM", "LFO2RATE"],
+		"CC":31
 	}
 
 }

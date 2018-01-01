@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<tal curprogram="190" version="1.6999999999999999556">
+<tal curprogram="0" version="1.6999999999999999556">
   <programs>
-    <program programname="LD Mellow Organ TAL" volume="0.31100001931190490723"
-             filtertype="0" cutoff="0.62992125749588012695" resonance="0.37795275449752807617"
-             osc1volume="0.5826771855354309082" osc2volume="1" osc3volume="0"
-             osc1waveform="0.34645670652389526367" osc2waveform="0.92913383245468139648"
-             oscsync="0" oscmastertune="0.5" osc1tune="0.51100003719329833984"
+    <program programname="LD Mellow Organ TAL" volume="0.51700001955032348633"
+             filtertype="0" cutoff="0.54100000858306884766" resonance="0"
+             osc1volume="0" osc2volume="1" osc3volume="0" osc1waveform="0.34645670652389526367"
+             osc2waveform="0.5" oscsync="0" oscmastertune="0.5" osc1tune="0.51100003719329833984"
              osc2tune="0.51700001955032348633" osc1finetune="0.49000000953674316406"
              osc2finetune="0.50300002098083496094" portamento="0" keyfollow="1"
-             filtercontour="0.51700001955032348633" filterattack="0.041000001132488250732"
-             filterdecay="0" filtersustain="1" filterrelease="0" ampattack="0"
-             ampdecay="0" ampsustain="1" amprelease="0" voices="0.60000002384185791016"
+             filtercontour="0.51700001955032348633" filterattack="0" filterdecay="0"
+             filtersustain="1" filterrelease="0" ampattack="0" ampdecay="0"
+             ampsustain="1" amprelease="0" voices="0.60000002384185791016"
              portamentomode="0" lfo1waveform="0.041000001132488250732" lfo2waveform="0.73600006103515625"
-             lfo1rate="0.33858266472816467285" lfo2rate="0.50400000810623168945"
-             lfo1amount="0.66141730546951293945" lfo2amount="0.90000003576278686523"
+             lfo1rate="0.50700002908706665039" lfo2rate="0.50400000810623168945"
+             lfo1amount="0.51700001955032348633" lfo2amount="0.90000003576278686523"
              lfo1destination="0.14285714924335479736" lfo2destination="0"
              lfo1phase="0.48800003528594970703" lfo2phase="0.49200001358985900879"
              osc1pw="0.46456691622734069824" osc2fm="0" osc1phase="0.51800000667572021484"
@@ -43,7 +42,6 @@
     <map param="15" controllernumber="19"/>
     <map param="23" controllernumber="20"/>
     <map param="38" controllernumber="21"/>
-
     <map param="7" controllernumber="22"/>
     <map param="8" controllernumber="23"/>
     <map param="9" controllernumber="24"/>
@@ -52,5 +50,8 @@
     <map param="12" controllernumber="27"/>
     <map param="13" controllernumber="28"/>
     <map param="14" controllernumber="29"/>
+    <map param="26" controllernumber="30"/>
+    <map param="32" controllernumber="31"/>
+    <map param="16" controllernumber="32"/>
   </midimap>
 </tal>
