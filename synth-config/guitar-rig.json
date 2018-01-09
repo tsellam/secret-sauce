@@ -1,0 +1,111 @@
+{
+
+	"filter_on_off":{
+		"set":[0,127],
+		"labels": ["off","on"],
+		"CC": 33
+	},
+
+	"disto_on_off":{
+		"set":[0,127],
+		"labels": ["off","on"],
+		"CC": 34
+	},
+
+	"flanger_on_off":{
+		"set":[0,127],
+		"labels": ["off","on"],
+		"CC": 35
+	},
+
+	"delay_on_off":{
+		"set":[0,127],
+		"labels": ["off","on"],
+		"CC": 36
+	},
+
+	"reverb_on_off":{
+		"set":[0,127],
+		"labels": ["off","on"],
+		"CC": 37
+	},
+
+
+	"filter_mode_LBF_HPF":{
+		"range":[0,127],
+		"CC": 1
+	},
+
+	"filter_frequency":{
+		"range":[0,127],
+		"minmax": [42,84],
+		"CC": 81
+	},
+
+	"filter_resonance":{
+		"range":[0,127],
+		"CC": 65
+	},
+
+
+	"disto_tone":{
+		"range":[0,127],
+		"CC": 2
+	},
+
+	"disto_drive":{
+		"range":[0,127],
+		"CC": 82
+	},
+
+
+	"flanger_rate":{
+		"range":[0,127],
+		"CC": 3
+	},
+
+	"flanger_intensity":{
+		"range":[0,127],
+		"CC": 83
+	},
+
+	"flanger_width":{
+		"range":[0,127],
+		"CC": 67
+	},
+
+	"flanger_mode":{
+		"set":[0,67, 127],
+		"labels": ["chorus","pitchmod","flanger"],
+		"CC": 75
+	},
+
+
+	"delay_time":{
+		"range":[0,127],
+		"minmax": [0,64],
+		"CC": 4
+	},
+
+	"delay_feedback":{
+		"range":[0,127],
+		"CC": 68
+	},
+
+	"delay_intensity":{
+		"range":[0,127],
+		"CC": 84
+	},
+
+
+	"reverb_room_size":{
+		"range":[0,127],
+		"CC": 5
+	},
+
+	"reverb_bright":{
+		"range":[0,127],
+		"CC": 85
+	}
+
+}

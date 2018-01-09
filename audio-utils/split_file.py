@@ -10,7 +10,7 @@ def split_track(audio_file, duration, offset, prefix):
 
 	s = 0
 	i = 0
-	while s + duration < total_duration:
+	while s < total_duration:
 		if i % 250 == 0 and i > 0:
 			print 'Chunk #' + str(i)
 			print 'Offset', s, 'out of', total_duration

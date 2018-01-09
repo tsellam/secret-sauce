@@ -1,0 +1,33 @@
+{
+
+	"filter_on_off":{
+		"set":[0,127],
+		"labels": ["off","on"],
+		"CC": 33
+	},
+
+	"disto_on_off":{
+		"set":[0,127],
+		"labels": ["off","on"],
+		"CC": 34
+	},
+
+	"flanger_on_off":{
+		"set":[0,127],
+		"labels": ["off","on"],
+		"CC": 35
+	},
+
+	"delay_on_off":{
+		"set":[0,127],
+		"labels": ["off","on"],
+		"CC": 36
+	},
+
+	"reverb_on_off":{
+		"set":[0,127],
+		"labels": ["off","on"],
+		"CC": 37
+	}
+
+}
