@@ -1,4 +1,4 @@
-# secret-sauce
+# The Secret Sauce Project
 
 The aim of the Secret Sauce project is to automatically reverse engineer studio sounds, with a focus on guitar effects and synthesizers. Give the model a reference sound, and it will tell you how to reproduce it.
 
