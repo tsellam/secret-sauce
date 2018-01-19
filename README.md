@@ -4,7 +4,6 @@ The aim of the Secret Sauce project is to automatically reverse engineer studio 
 
 More details [here](http://127.0.0.1:4000/2018/01/01/Secret-Sauce-data.html)
 
-The structure of the repo is as follows:
 - audio-utils: basic post-processing for generated audio tracks
 - data: meta-data used for sound generation
 - midi-utils: tools to generate ranom MIDI patches and tracks
